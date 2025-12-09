@@ -1,5 +1,5 @@
 # charanim
-
+2-d platform
 $ASSETS
 Materials/ – Materials used for sprite rendering or effects.
 
