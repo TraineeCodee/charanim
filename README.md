@@ -1,27 +1,10 @@
 # charanim
-jump animation parameter is trigger
-run and idle are bool type parameter
+Materials/ – Materials used for sprite rendering or effects.
 
-if moving  by velocityapi
-    do the run animation
-input.keydown to keyboard key move 
+Animation/ – All animation and effects.
 
+Scenes/ – Contains all Unity scenes.
 
-### From **Idle → Run**
-- **Condition:** `run == true`
-- **Has Exit Time:** Off  
-- **Transition Duration:** Short (0.1 sec recommended)
+C#cripts/ – Code files organized by category for clarity.
 
-### From **Run → Idle**
-- **Condition:** `run == false`
-- **Has Exit Time:**  Off  
-- **Transition Duration:** Short (0.1 sec recommended)
-
-### From **Any State → Jump**
-- **Condition:** `jump` (Trigger)
-- **Has Exit Time:**  Off  
-- **Fixed Duration:** Off
-
-### From **Jump → Idle**
-- **Condition:** idle
-  
+Settings/ – Configuration assets like rendered.
