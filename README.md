@@ -1,4 +1,6 @@
 # charanim
+
+$ASSETS
 Materials/ – Materials used for sprite rendering or effects.
 
 Animation/ – All animation and effects.
